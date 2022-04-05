@@ -4,7 +4,7 @@
     "main.js": "/static/js/main.5d0cb1cf.js",
     "static/js/787.6d4b6d96.chunk.js": "/static/js/787.6d4b6d96.chunk.js",
     "static/media/resume.pdf": "/static/media/resume.648b8ed773b1e0029044.pdf",
-    "static/media/ode.png": "/static/media/ode.d95765803e505f453a33.png",
+    "static/media/ode.png": "./static/media/ode.d95765803e505f453a33.png",
     "static/media/artgallery.png": "/static/media/artgallery.d69c1957cf767efb8494.png",
     "static/media/verygood.jpg": "/static/media/verygood.8c1796296c647c439142.jpg",
     "static/media/blueme.png": "/static/media/blueme.8e255cc1b4e89d80b8e4.png",
