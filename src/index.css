@@ -4,7 +4,7 @@
 
 body {
   background-color: #1a1a1a;
-  margin: 0;
+  margin: auto 0;
   box-sizing: border-box;
   font-family: 'Calibri';
   -webkit-font-smoothing: antialiased;
@@ -40,7 +40,7 @@ code {
 }
 
 .summary {
- font-size: 18px;
+ font-size: 17px;
 }
 
 .title {
@@ -57,7 +57,95 @@ code {
 
 .contact {
   font-size: 38px;
- font-weight: bold;
- padding-bottom: 30px; 
+  font-weight: bold;
+  padding-bottom: 30px; 
 }
 
+.exp-position {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 15px;
+  padding: 0px 0px 18px 0px;
+}
+
+.ode {
+  padding: 35px 30px 30px 30px;
+
+  background:  linear-gradient(
+     rgba(26,26,26, 0.9), 
+      rgba(26,26,26, 0.9)
+    ),
+    url(../static/ode.png);
+}
+
+.art {
+  padding: 35px 30px 30px 30px;
+  background: linear-gradient(
+     rgba(26,26,26, 0.9), 
+      rgba(26,26,26, 0.9)
+    ),
+    url(../static/artgallery.png);
+}
+
+.bluem {
+  padding: 35px 30px 30px 30px;
+  background: linear-gradient(
+     rgba(26,26,26, 0.9), 
+      rgba(26,26,26, 0.9)
+    ),
+    url(../static/blueme.png);
+} 
+
+.restaurants {
+  padding: 35px 30px 30px 30px;
+  background: linear-gradient(
+     rgba(26,26,26, 0.9), 
+      rgba(26,26,26, 0.9)
+    ),
+    url(../static/verygood.jpg);
+}
+ 
+.ode-btn {
+    color: #cdccc6;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  
+.atelier-btn {
+    color: #cdccc6;
+    font-size: 15px;
+  }
+
+.center {
+   margin: 0 auto;
+}
+
+  /* Extra small devices (phones, 600px and down) */
+  /* @media only screen and (max-width: 600px) {...} */
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* @media only screen and (min-width: 600px) {...} */
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  .experience {
+    width: 600px;
+  }
+
+ .name, .position {
+  font-size: 7vw;
+} 
+
+.summary-width {
+  width: 600px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

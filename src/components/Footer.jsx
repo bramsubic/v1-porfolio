@@ -3,10 +3,11 @@ import '../index.css'
 
 const Footer = () => {
   return (
-    <div className="border-2 border-indigo-500 grid place-items-center h-screen">
-        <div className="">
+    <div className="flex h-screen justify-center items-center">
+        <div className="text-center">
             <p className="text-white contact text-center">Get in touch</p>
             <a className="email" href="default.asp" target="_blank">Email</a>
+            <div className="flex items-center pt-24 justify-between">
             <a href="https://www.github.com/bramsubic" target="_blank">
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,6 +40,7 @@ const Footer = () => {
                 <circle cx="4" cy="4" r="2"></circle>
                 </svg>
             </a>
+            </div>
         </div>
     </div>
   );

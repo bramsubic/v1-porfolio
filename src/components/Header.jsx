@@ -1,14 +1,17 @@
 import React from 'react'
 import '../index.css'
+import pdf from "../resume.pdf";
 
 const Header = () => {
   return (
-    <div className="grid place-items-center h-screen border">
-      <div className="px-6 border-2 border-indigo-500">
+    <div className="flex h-screen justify-center items-center">  
+      <div className="px-6">
          <p className="name text-white"> Brittney Ramsubick </p>
          <p className="position text-gray"> Full-Stack Developer </p>
-         <p className="summary text-gray"> I’m a software engineer who builds scalable, user-centered things for the web. I'm currently freelancing and I am always open to new opportunities. </p>
-          <a href="/resume.pdf" className="resume-link">
+         <div className="summary-width">
+         <p className="summary text-gray mb-10"> I’m a software engineer who builds scalable, user-centered things for the web. I'm currently freelancing and I am always open to new opportunities. </p>
+         </div>
+          <a href={pdf} target="_blank" rel="noreferrer" className="resume-link text-pink border p-3 rounded-lg">
               Resume
             </a>
       </div>
